@@ -3,7 +3,7 @@ version: "3"
 services:
   cow-proxy:
     build: .
-    image: shgoudarzi/cow-proxy:latest
+    image: cow-proxy:latest
     ports:
       - "8585:7777"
     volumes:
